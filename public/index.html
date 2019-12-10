@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Rigs On Demand - RP Tech Company</title>
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+      integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div class="rig-background space"></div>
+    <div class="banner">
+      <div class="container">
+        <header class="text-center mb-4">
+          <h1 class="display-4 brand-primary">Rigging Now</h1>
+          <p class="lead"><em>Building a ROD experience for gamers</em></p>
+        </header>
+        <div class="space"></div>
+
+        <div class="row">
+          <div class="col-md-3"></div>
+          <div class="col-md-6">
+            <form action="/sign_up" method="post">
+              <h5 class="mb-4">Join Network</h5>
+              <div class="form-group">
+                <label for="name">Full Name</label>
+                <input
+                  type="name"
+                  class="form-control"
+                  id="name"
+                  required="required"
+                  name="name"
+                  aria-describedby="nameHelp"
+                  placeholder="What do they call you?"
+                />
+              </div>
+              <div class="form-group">
+                <label for="email">Email address</label>
+                <input
+                  type="email"
+                  required="required"
+                  class="form-control"
+                  id="email"
+                  name="email"
+                  aria-describedby="emailHelp"
+                  placeholder="Will let you know when you can start rigging"
+                />
+                <small id="emailHelp" class="form-text text-muted"
+                  >We'll never share your email with anyone else.</small
+                >
+              </div>
+              <div class="form-group">
+                <label for="phone">Mobile</label>
+                <input
+                  type="tel"
+                  class="form-control"
+                  id="phone"
+                  required="required"
+                  name="phone"
+                  pattern="^\d{10}$"
+                  aria-describedby="phoneHelp"
+                  placeholder="In case we have offers for you"
+                />
+              </div>
+
+              <input
+                type="submit"
+                id="submitDetails"
+                name="submitDetails"
+                value="Subscribe Now"
+                class="btn btn-primary btn-block"
+              />
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="rig-background space"></div>
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Audiowide&display=swap"
+      rel="stylesheet"
+    />
+  </body>
+</html>
